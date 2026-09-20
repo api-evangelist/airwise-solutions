@@ -1,0 +1,6 @@
+generated: '2026-09-20'
+method: none
+source: 'registry searches 2026-09-20: registry.npmjs.org search "airwise" (no first-party result), pypi.org airwise/airwiseos/airwise-sdk (404), github.com/airwise-solutions (org exists, 0 public repos,
+  ownership not back-linked from the company site)'
+note: No first-party SDK, CLI or client library is published in any public registry. Checked, nothing to record.
+packages: []

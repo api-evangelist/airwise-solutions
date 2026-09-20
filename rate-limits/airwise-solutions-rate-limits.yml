@@ -1,0 +1,8 @@
+generated: '2026-09-20'
+method: searched
+source: https://developer.airwisesolutions.app/
+note: 'Rate limits are not publicly documented: the developer portal requires a sign-in with an AirWise developer account before it shows API documentation, and the API host returns 403 Forbidden to every
+  anonymous request with no RateLimit-* or Retry-After headers.'
+limit_count: 0
+limits: []
+headers: []

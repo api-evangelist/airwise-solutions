@@ -1,0 +1,21 @@
+generated: '2026-09-20'
+method: probed
+source: https://cognito-idp.us-west-2.amazonaws.com/us-west-2_5xk7sQaJU/.well-known/openid-configuration
+docs: https://developer.airwisesolutions.app/
+schemes:
+- name: airwise-sso
+  type: openIdConnect
+  openIdConnectUrl: https://cognito-idp.us-west-2.amazonaws.com/us-west-2_5xk7sQaJU/.well-known/openid-configuration
+  provider: Amazon Cognito
+  authorization_endpoint: https://sso.airwisesolutions.app/oauth2/authorize
+  token_endpoint: https://sso.airwisesolutions.app/oauth2/token
+  scopes_supported:
+  - openid
+  - email
+  - phone
+  - profile
+  response_types_supported:
+  - code
+  - token
+note: This is the platform identity provider used by the AirWise web apps and the developer portal sign-in. Which schemes individual API routes require is documented only behind the developer-portal sign-in
+  and is not recorded here.

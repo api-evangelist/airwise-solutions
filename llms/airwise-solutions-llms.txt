@@ -1,0 +1,52 @@
+﻿# AirWise Solutions
+
+> AirWise is a unified drone operating software platform for public safety and critical infrastructure teams. It covers the full mission lifecycle: pre-flight planning and FAA authorizations (including LAANC), real-time in-flight airspace awareness, and post-flight data, analytics, and compliance. The platform is hardware-agnostic, UTM-ready, and built for beyond-visual-line-of-sight (BVLOS) operations.
+
+> AirWise Solutions is headquartered in Tulsa, Oklahoma, and was founded in 2021. The platform fuses ADS-B, Remote ID, RF, radar, and weather data into a single operating picture. It integrates with Skydio, DJI, and Autel aircraft and connects to enterprise systems through open APIs. Customers include public safety agencies, energy companies, and infrastructure operators, among them the Washington State Patrol. The most important pages are listed below.
+
+
+## Pages
+
+- [Airwise Academy Home](https://airwisesolutions.com/airwise-academy-home/)
+- [Airwise Academy](https://airwisesolutions.com/airwise-academy-2-2/)
+- [Terms and Conditions](https://airwisesolutions.com/terms-and-conditions/)
+- [AMA Registration](https://airwisesolutions.com/ama-registration/)
+- [Critical Infrastructure](https://airwisesolutions.com/critical-infrastructure/)
+- [Special Governmental Interest or SGI’s](https://airwisesolutions.com/special-governmental-interest-or-sgis/)
+- [Understanding NOTAM UOAs](https://airwisesolutions.com/understanding-notam-uoas/)
+- [B4UFLY and LAANC](https://airwisesolutions.com/b4ufly-and-laanc/)
+- [Cancel Your Subscription or Delete Your Account and Data](https://airwisesolutions.com/cancel-your-subscription-or-delete-your-account-and-data/)
+- [Text Message Notifications: Opt In or Opt Out](https://airwisesolutions.com/text-message-notifications-opt-in-or-opt-out/)
+- [Post-Flight](https://airwisesolutions.com/expertise/post-flight/)
+- [In-flight](https://airwisesolutions.com/expertise/in-flight/)
+- [Public Safety](https://airwisesolutions.com/industries/public-safety/)
+- [Pre-Flight](https://airwisesolutions.com/expertise/pre-flight/)
+- [News and Insights](https://airwisesolutions.com/insights/)
+- [About](https://airwisesolutions.com/about/)
+- [Get-Started](https://airwisesolutions.com/get-started/)
+- [Home](https://airwisesolutions.com/)
+- [Privacy Policy](https://airwisesolutions.com/policy/)
+
+
+## Posts
+
+- [UAS Sentry and Airwise Solutions Integrate For Drone Detection](https://airwisesolutions.com/company/airwise_solutions_uassentry_integration/)
+- [Dronetag and Airwise Solutions Integrate](https://airwisesolutions.com/company/airwise_solutions_dronetag_integration/)
+- [uAvionix and Airwise Solutions Partner to Advance Real-Time UTM Capabilities for Skyway Range](https://airwisesolutions.com/company/airwise_solutions_uavionix_partner/)
+- [Airwise Solutions Launches Nexus](https://airwisesolutions.com/company/airwise_solutions_launches_nexus/)
+- [Drone situational awareness for first responders and public safety teams](https://airwisesolutions.com/insights/drone-situational-awareness-for-first-responders-and-public-safety-teams/)
+- [Tulsa Robots Serving First Responders](https://airwisesolutions.com/insights/tulsa-robots-serving-first-responders/)
+- [Airwise and UVT Announce Strategic Partnership to Expand Integrated Drone Solutions Across Industries ](https://airwisesolutions.com/insights/airwise-and-uvt-announce-strategic-partnership-to-expand-integrated-drone-solutions-across-industries/)
+- [Drone 3D models and digital twins for infrastructure and asset inspections](https://airwisesolutions.com/insights/drone-3d-models-and-digital-twins-for-infrastructure-and-asset-inspections/)
+- [UASidekick Launches Digital SGIs in Partnership with FAA](https://airwisesolutions.com/insights/uasidekick-launches-digital-sgis-in-partnership-with-faa/)
+- [Drone methane detection for oil and gas emissions reduction](https://airwisesolutions.com/insights/drone-methane-detection-for-oil-and-gas-emissions-reduction/)
+- [Sean Cassidy joins Airwise Solutions as a Senior Advisor](https://airwisesolutions.com/insights/sean-cassidy-joins-airwise-solutions-as-a-senior-advisor/)
+- [Commercial UAV News](https://airwisesolutions.com/insights/commercial-uav-news/)
+- [Drone photogrammetry for GIS, surveying, and infrastructure inspections](https://airwisesolutions.com/insights/drone-photogrammetry-for-gis-surveying-and-infrastructure-inspections/)
+- [Oklahoma Aviation Aerospace – Aero Day](https://airwisesolutions.com/insights/oklahoma-aviation-aerospace-aero-day/)
+- [UAS Cluster Rethink Vertical podcast with Josh O’Leary](https://airwisesolutions.com/insights/uas-cluster-rethink-vertical-podcast-with-josh-oleary/)
+
+> Contact: +1-864-400-8027 | https://airwisesolutions.com/get-started/
+Developer documentation: https://developer.airwisesolutions.app
+AirWise Solutions, Tulsa, OK, USA
+

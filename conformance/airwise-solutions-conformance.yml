@@ -1,0 +1,11 @@
+generated: '2026-09-20'
+method: probed
+source: https://cognito-idp.us-west-2.amazonaws.com/us-west-2_5xk7sQaJU/.well-known/openid-configuration
+entries:
+- id: oidc
+  conforms: true
+  evidence: well-known/airwise-solutions-openid-configuration.json - OIDC discovery document (HTTP 200) for the AirWise Cognito user pool; endpoints on sso.airwisesolutions.app
+- id: oauth2
+  conforms: true
+  evidence: 'same document: authorization + token endpoints at sso.airwisesolutions.app/oauth2/*, response_types code and token'
+note: Identity-layer conformance only. The API contract is behind the developer-portal sign-in, so no contract-level or domain-standard (ASTM F3548 UTM / Remote ID) conformance is asserted.

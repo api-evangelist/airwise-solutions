@@ -1,0 +1,141 @@
+generated: '2026-09-20'
+method: probed
+source: live HTTP probes 2026-09-20
+note: 'Only real document: the Amazon Cognito OIDC discovery document for the user pool behind sso.airwisesolutions.app (pool id read from the public flightmanager app bundle). Every path on the company-controlled
+  hosts missed; SPA hosts answer 200 text/html with the app shell for every path, which is a miss.'
+hosts:
+- host: airwisesolutions.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+- host: flightmanager.airwisesolutions.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+  - path: /.well-known/openid-configuration
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+  - path: /.well-known/api-catalog
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+  - path: /.well-known/agent-card.json
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+  - path: /.well-known/agent.json
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    note: SPA shell (text/html, 1594 bytes) for every path - not a document
+- host: nexus.airwisesolutions.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+  - path: /.well-known/openid-configuration
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+  - path: /.well-known/api-catalog
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+  - path: /.well-known/agent-card.json
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+  - path: /.well-known/agent.json
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    note: SPA shell (text/html, 1657 bytes) for every path - not a document; omniwatch.airwisesolutions.app 301s here
+- host: developer.airwisesolutions.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    note: S3/CloudFront AccessDenied
+  - path: /.well-known/openid-configuration
+    status: 403
+    note: S3/CloudFront AccessDenied
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    note: S3/CloudFront AccessDenied
+  - path: /.well-known/api-catalog
+    status: 403
+    note: S3/CloudFront AccessDenied
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    note: S3/CloudFront AccessDenied
+  - path: /.well-known/agent-card.json
+    status: 403
+    note: S3/CloudFront AccessDenied
+  - path: /.well-known/agent.json
+    status: 403
+    note: S3/CloudFront AccessDenied
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    note: S3/CloudFront AccessDenied
+- host: api.airwisesolutions.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+  - path: /.well-known/openid-configuration
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+  - path: /.well-known/api-catalog
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+  - path: /.well-known/agent-card.json
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+  - path: /.well-known/agent.json
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    note: API Gateway {"message":"Forbidden"} on every path incl. / - edge authenticates before routing (opaque)
+- host: sso.airwisesolutions.app
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+- host: cognito-idp.us-west-2.amazonaws.com
+  note: AWS-hosted issuer for the AirWise user pool; its endpoints are on sso.airwisesolutions.app
+  documents:
+  - path: /us-west-2_5xk7sQaJU/.well-known/openid-configuration
+    status: 200
+    content_type: application/json
+    file: well-known/airwise-solutions-openid-configuration.json

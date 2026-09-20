@@ -1,0 +1,23 @@
+generated: '2026-09-20'
+method: searched
+probe: conventional paths on airwisesolutions.com + site navigation
+source: https://airwisesolutions.com/
+signals:
+  data_subject_request:
+    url: https://airwisesolutions.com/cancel-your-subscription-or-delete-your-account-and-data/
+    section: Cancel Your Subscription or Delete Your Account and Data
+    channel: self-service, in-account (UASidekick)
+    stated_sla: null
+    evidence: 'HTTP 200; step-by-step guide: cancel the subscription, then delete the account and all associated data'
+    note: Covers the UASidekick account product. No response period is stated, so none is recorded.
+probed_absent:
+- url: https://airwisesolutions.com/accessibility
+  status: 404
+- url: https://airwisesolutions.com/legal/subprocessors
+  status: 404
+- url: https://airwisesolutions.com/legal/dpa
+  status: 404
+- url: https://airwisesolutions.com/security
+  status: 404
+- url: https://airwisesolutions.com/trust
+  status: 404
